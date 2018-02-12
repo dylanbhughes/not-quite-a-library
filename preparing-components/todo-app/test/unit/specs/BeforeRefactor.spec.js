@@ -1,9 +1,9 @@
 import Vue from 'vue'
-import HelloWorld from '@/components/HelloWorld'
+import BeforeRefactor from '@/components/BeforeRefactor'
 
-describe('HelloWorld.vue', () => {
+describe('BeforeRefactor.vue', () => {
   it('should render correct contents', () => {
-    const Constructor = Vue.extend(HelloWorld)
+    const Constructor = Vue.extend(BeforeRefactor)
     const vm = new Constructor().$mount()
     expect(vm.$el.querySelector('.hello h1').textContent)
       .toEqual('Welcome to Your Vue.js App')

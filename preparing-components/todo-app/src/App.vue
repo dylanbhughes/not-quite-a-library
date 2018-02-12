@@ -6,8 +6,16 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
+
 export default {
-  name: 'App'
+  name: 'App',
+  created () {
+    this.initialSetTodos()
+  },
+  methods: {
+    ...mapMutations(['initialSetTodos'])
+  }
 }
 </script>
 

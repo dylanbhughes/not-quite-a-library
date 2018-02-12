@@ -1,6 +1,6 @@
 # preparing-components
 
-> A Vue.js project
+> A really, really, terrible Vue.js project. Don't base anything on this.
 
 ## Build Setup
 
