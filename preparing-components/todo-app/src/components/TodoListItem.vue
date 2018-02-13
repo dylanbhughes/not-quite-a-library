@@ -1,8 +1,8 @@
 <template>
-  <li>
-    <input type="checkbox" v-model="done">
+  <div class="list__item">
+    <input type="checkbox">
     <span>{{ todo.text }}</span>
-  </li>
+  </div>
 </template>
 
 <script>
@@ -13,5 +13,9 @@ export default {
 </script>
 
 <style scoped>
+
+.list__item {
+  width: 300px;
+}
 
 </style>
